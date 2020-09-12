@@ -3,7 +3,7 @@ package br.digital.com
 class Impressora( ) {
     var listaImprimivel = mutableListOf<Imprimivel>()
 
-    inline fun adicionar(vararg imprimiveis: Imprimivel, imprimir:() -> Unit) {
+    fun adicionar(vararg imprimiveis: Imprimivel) {
         for (imprimivel in imprimiveis)
             listaImprimivel.add(imprimivel)
     }

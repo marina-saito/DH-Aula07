@@ -6,6 +6,6 @@ fun main() {
     val contrato = Contrato("Contratinho", "Contrato")
     val impressora = Impressora()
 
-    impressora.adicionar(doc, foto, contrato, impressora.imprimir())
-
+    impressora.adicionar(doc, foto, contrato)
+    impressora.imprimir()
 }
